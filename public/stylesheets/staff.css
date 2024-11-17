@@ -1,0 +1,154 @@
+
+*{
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+body {
+  height: auto;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.boxed{
+  max-width: 1000px;
+  margin-inline: auto;
+
+}
+
+.slider{
+  max-width: 1000px;
+  margin: 50px auto;
+  border: 1px dashed #000;
+  padding: 30px;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+}
+
+.section-blog{
+  margin-bottom: 50px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+header {
+  height: 40px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  background: #0055DD;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  padding: 5px;
+  font-size: 20px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+
+}
+
+main{
+  max-width = 1000px;
+  height: 60vh;
+}
+
+#content {
+  min-height: 500px;
+  padding: 0 30px;
+}
+
+footer {
+  height: 40px;
+  padding: 10px 20px;
+  background: #0055DD;
+  color: white;
+  text-align : center;
+}
+
+/* Actions */
+
+.actions {
+  margin-bottom: 1em;
+}
+
+
+/* Lists */
+
+table {
+  border-collapse: collapse;
+  vertical-align: top;
+}
+
+table.list {
+  width: 100%;
+}
+
+table.list tr td {
+  border: 1px solid #999999;
+}
+
+table.list tr th {
+  border: 1px solid #0055DD;
+  background: #0055DD;
+  color: white;
+  text-align: left;
+}
+
+/* Forms */
+
+dl {
+  clear: both;
+  overflow: hidden;
+  margin: 0.5em 0;
+}
+
+dt {
+  float: left;
+  font-weight: bold;
+  width: 125px;
+}
+
+dd {
+  float: left;
+  margin-left: 1em;
+}
+
+#operations {
+  clear: both;
+  margin: 1em 0 1em 75px;
+}
+
+/* Errors */
+
+.errors {
+  display: inline-block;
+  border: 2px solid red;
+  color: red;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.errors ul {
+  margin-bottom: 0;
+  padding-left: 1em;
+}
