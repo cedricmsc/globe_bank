@@ -67,9 +67,9 @@ nav ul li {
 
 }
 
-main{
+.content{
   max-width = 1000px;
-  height: 60vh;
+  height: 50vh;
 }
 
 #content {
